@@ -1,0 +1,206 @@
+/*{
+    outline: 1px dotted line;
+    align-content: right;
+    #logo {
+    width: 250px;
+
+    nav
+    display: grid;
+    grid-template-columns: 200px auto;
+        margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+
+        display: grid;
+    grid-template-columns: auto;
+        margin-left: auto;
+    margin-right: auto;
+}
+}*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav {
+    max-width: 2000px;
+    text-align: center;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 20px;
+  }
+#logo {
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    width:600px;
+    padding: 20px;
+    padding-left: 400px;
+}
+.links {
+    margin-top: 40px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.links a {
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+ }
+
+ #ABOUT h1 {
+    font-weight: bold;
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+ #ABOUT {
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+ }
+ #EARLYWORK h1 {
+    font-weight: bold;
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+    padding-bottom: 20px;
+ }
+ #EARLYWORK p {
+    color: white;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 20px;
+    max-width: 500px;
+ }
+ #EARLYWORKIMAGE {
+    padding-left: 45px;
+    align-content: center;
+    padding-bottom: 60px;
+ }
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    padding-left: 20px;
+  }
+  .text1 {
+    padding-right: 20px;
+  }
+ #PASTWORK h1{
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+ }
+ #PASTWORK p{
+    text-align: left;
+    color: white;
+    max-width: 600px;
+    padding: 10px;
+ }
+#PASTWORKIMAGES {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em;
+    padding: 20px;
+    padding-right: 10px;
+}
+
+#DESIGNBOARD h1 {
+    font-weight: bold;
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+}
+#DESIGNBOARD {
+    padding-bottom: 40px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#CURRENTWORK h1 {
+    font-weight: bold;
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ #CURRENTWORK p {
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    padding: 5px;
+ }
+ #CURRENTWORKIMAGES {
+    padding: 40px;
+    align-content: right;
+    padding-bottom: 60px;
+ }
+ #CURRENTWORKIMAGESGALLERY {
+    align-content: right;
+    padding-left: 50px;
+ }
+
+ #WHATSNEXT h1 {
+    font-weight: bold;
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+}
+ #WHATSNEXT {
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ #QUESTIONMARK {
+    align-items: center;
+    padding-left: 620px;
+    padding-bottom: 50px;
+ }
+ #CONTACT h1 {
+    font-weight: bold;
+    margin-top: 10px;
+    color:white;
+    text-align: center;
+}
+ #CONTACT {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    padding-left: 300px;
+ }
